@@ -7,7 +7,7 @@
 <ul>
   <p> This function is used to show how many rows we have in the table view <br/> </p>
   <li> tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int </li>  
-  <p> This function provides a cell for each row <br/>
+  <p> <br/> This function provides a cell for each row <br/>
       This function has to know what content the cell with include. <br/>
       A Content can be like label or image view inside each of our cell. <br/> </p>
   <li> tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int </li>
@@ -23,7 +23,7 @@
 </ul>
 
 <ul>
-  <p> When a row will deselected from a table view <br/> </p>
+  <p> When a row will deselect from a table view <br/> </p>
   <li> tableView(_ tableView: UITableView, willDeselectRowAt indexPath: IndexPath) -> IndexPath? </li>
 </ul>
 
