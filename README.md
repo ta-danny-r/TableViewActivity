@@ -10,7 +10,7 @@
   <p> <br/> This function provides a cell for each row <br/>
       This function has to know what content the cell with include. <br/>
       A Content can be like label or image view inside each of our cell. <br/> </p>
-  <li> tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int </li>
+  <li> tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell </li>
 </ul>
 
 <h3> UITableViewDelegate </h3>
