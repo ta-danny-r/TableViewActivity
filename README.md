@@ -19,7 +19,7 @@
     Examples of functions from table view delegates </br> </p>
 <ul>
   <p> When a row is selected from a table view <br/> </p>
-  <li> tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) </li>
+  <li> tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) </li>
 </ul>
 
 <ul>
